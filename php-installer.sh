@@ -9,7 +9,7 @@ function install_php(){
 
 move_to "$temp_url";
 
-download_tar "$php74_url"
+download_tar "$tar_file" "$php74_url";
 
 folder_name=$(ls | grep -m 1 "$tar_file");
 

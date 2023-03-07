@@ -60,7 +60,8 @@ function unpackage(){
 
 }
 function download_tar(){
-    # recibe la ubicacion del archivo 
+    # recibe el nombre del archvio y la
+    # ubicacion del archivo a descargar
 
     if [[ -d "$1" ]]; then
 
@@ -68,7 +69,8 @@ function download_tar(){
 
     else
 
-        sudo wget "$mysql_url";
+        # sudo wget 
+        echo "$1 $2";
 
     fi
 

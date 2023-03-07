@@ -9,14 +9,14 @@ exists_wget
 echo "
     EMPEZARA CON LA INSTALACION DE MYSQL 5.7
 "
-# install_mysql
+install_mysql
 
 echo "
 
     AHORA SE INTALARA PHP 7.4
 
 "
-install_php
+# install_php
 
 echo "
 
@@ -25,7 +25,7 @@ echo "
 "
 
 
-install_node
+# install_node
 
 
 echo "*********************************
